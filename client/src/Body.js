@@ -20,7 +20,7 @@ const Body = ({candidate1, candidate2, voteCandidate, account}) => {
 
     return (
         <div className="container mt-4 text-center" style={{color: "#000000"}}>
-            <h2>Election Results</h2>
+            <h2>Auction Results</h2>
             <div className="container mt-4 text-center" style={{width: "70%"}}>
                 <hr
                     style={{
@@ -84,7 +84,7 @@ const Body = ({candidate1, candidate2, voteCandidate, account}) => {
                         <option value="2">{candidate2.name}</option>
                     </select>
                     <button className="btn btn-primary mt-2 btn-md w-100">
-                        Vote Candidate{""} {candidate}
+                        Vote For Property{""} {candidate}
                     </button>
                 </form>
             </div>

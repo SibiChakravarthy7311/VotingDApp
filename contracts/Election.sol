@@ -25,8 +25,8 @@ contract Election {
 
     constructor() {
         // code to initiate Eg: Donald Trump and Barack Obama Election
-        addCandidate("Donald Trump");
-        addCandidate("Barack Obama");
+        addCandidate("Property1");
+        addCandidate("Property2");
     }
 
     // function to add candidates
